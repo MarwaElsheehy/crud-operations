@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: arial, sans-serif;
+}
+input {
+  width: 250px;
+  display: block;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin: 15px;
+  border: 0;
+  border: 1px solid #bfc1c2;
+}
+#btn {
+  padding: 10px;
+  margin: 15px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #bfc1c2;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px 0;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 45%;
+  height: 250px;
+  background-color: #008080;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 35px;
+  display: none;
+}
+#delete {
+  padding: 5px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #ff0000;
+}
+#update {
+  padding: 5px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #008000;
+}
+#view {
+  padding: 5px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #0000ff;
+}
